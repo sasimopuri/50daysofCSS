@@ -1,0 +1,31 @@
+.container{
+    position: relative;
+    width: 300px;
+    display: flex;
+    flex: 1;
+}
+.box{
+    width: 25%;
+    height: 150px;
+    transition: all 1s;
+}
+.orange
+{
+    background-color: orange;
+    
+}
+.blue{
+    
+    background-color: skyblue;
+}
+.violet{
+    background-color: violet;
+}
+.pink{
+    background-color: pink;
+}
+
+.box:hover
+{
+    width: 300px;
+}
